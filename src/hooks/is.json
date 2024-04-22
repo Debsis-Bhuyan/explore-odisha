@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "totalPost": 3,
+  "data": [
+    {
+      "_id": "661396c4e0558243e65620e8",
+      "title": "Explore Odisha Project",
+      "slug": "explore-odisha-project",
+      "desc": "<h1>Explore Odisha Application (MERN Stack)</h1><p style=\"text-align: start\">Welcome to the Full stack Application documentation! This application allows users to explore a variety of information regarding a place in Odisha with a user-friendly interface. Below is a detailed guide on how to set up and run the application.</p><p style=\"text-align: start\">&nbsp;</p><h2>Overview</h2><p style=\"text-align: start\">This full-stack application is built using the MERN stack (MongoDB, Express, React, Node.js). The state management is handled using Zustand instead of Redux. Users can enjoy features like post categorization, pagination, commenting, and a dual Dark &amp; Light theme UI. Admins have access to additional functionalities in the Admin Dashboard, including analytics on post content .</p><p style=\"text-align: start\">This project is meant for travelers who want travel new places. This web application gives Information about that place.</p><p style=\"text-align: start\">&nbsp;</p><h2>System Requirements:</h2><ul><li><p>Node.js version 18 or above.</p></li><li><p>npm version 10.2.3.</p></li><li><p>MongoDB Atlas</p></li><li><p>Text Editor or IDE</p></li><li><p>Git</p></li><li><p>Postman (Optional)</p></li></ul><p style=\"text-align: start\">&nbsp;</p><h2>Technologies Used:</h2><ol><li><p>ReactJs</p></li><li><p>NodeJs (Node version 18 or above)</p></li><li><p>ExpressJs</p></li><li><p>MongoDB (Database)</p></li><li><p>Tailwind CSS (for Styling)</p></li><li><p>Zustand (for State Management)</p></li></ol><p style=\"text-align: start\">&nbsp;</p><h2>Features Include (Client side):</h2><ol><li><p>User Account Creation (Optional)</p></li><li><p>Google Sign In (Optional) - Client side only</p></li><li><p>Post Categories</p></li><li><p>Pagination with Page Numbers</p></li><li><p>Commenting on Posts (Only Available to Signed-in Users)</p></li><li><p>Dark and Light Theme Settings</p></li><li><p>Details Page with Dynamic URL (Slug)</p></li><li><p>Fully Mobile-Responsive Design</p></li></ol><h2>Features Include (Admin Dashboard):</h2><ol><li><p>Account Creation</p></li><li><p>Email Verification with OTP</p></li><li><p>Create Posts, Delete Posts, Enable or Disable Posts</p></li><li><p>Dashboard Analytics</p></li><li><p>Content and Views Analytics (7 days, 28 days, 900 days &amp; 365 days)</p></li><li><p>Ability to delete user comments on a blog post</p></li><li><p>Dark and Light Theme Settings</p></li><li><p>Fully Mobile-Responsive Design</p></li></ol><h2>Modern User Interface (UI)</h2><p style=\"text-align: start\">Classic UI with DARK &amp; LIGHT theme settings</p>",
+      "img": "https://firebasestorage.googleapis.com/v0/b/exploreodisha-86ded.appspot.com/o/1712559806472odisha%20image.jpeg?alt=media&token=ec14bf0f-4dbc-4242-aa60-77d6640deaea",
+      "cat": "CODING",
+      "views": [],
+      "user": {
+        "_id": "66113bfd46613d5028006560",
+        "name": "Debasis  Deba",
+        "image": "https://firebasestorage.googleapis.com/v0/b/exploreodisha-86ded.appspot.com/o/1712405486286Screenshot%202024-02-28%20080248.png?alt=media&token=b78cfe85-1aa1-42b4-bbe5-d0338a680557"
+      },
+      "comments": [],
+      "status": true,
+      "createdAt": "2024-04-08T07:03:32.427Z",
+      "updatedAt": "2024-04-08T07:03:32.427Z",
+      "__v": 0
+    },
+    {
+      "_id": "66139233a4712f5679e22a90",
+      "title": "Vssut burla",
+      "slug": "vssut-burla",
+      "desc": "<p><strong>Veer Surendra Sai University of Technology</strong><span style=\"color: rgb(32, 33, 34)\">, formerly known as the </span><strong>University College of Engineering, Burla</strong><span style=\"color: rgb(32, 33, 34)\">, is a state university located in </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://en.wikipedia.org/wiki/Burla,_India\">Burla</a><span style=\"color: rgb(32, 33, 34)\">, </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://en.wikipedia.org/wiki/Sambalpur\">Sambalpur</a><span style=\"color: rgb(32, 33, 34)\">, Odisha, India. Established in 1956, it is the oldest engineering college in Odisha. UCE Burla, its former name, was officially changed to its current name on 10 June 2009, as a result of a resolution by the </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://en.wikipedia.org/wiki/Government_of_Odisha\">Government of Odisha</a><span style=\"color: rgb(32, 33, 34)\"> to accord it with the status of a unitary university.</span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://en.wikipedia.org/wiki/Veer_Surendra_Sai_University_of_Technology#cite_note-2\"><sup>[2]</sup></a></p><h2 style=\"text-align: start\">Programmes offered<span style=\"color: rgb(84, 89, 93)\">[</span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://en.wikipedia.org/w/index.php?title=Veer_Surendra_Sai_University_of_Technology&amp;action=edit&amp;section=2\">edit</a><span style=\"color: rgb(84, 89, 93)\">]</span></h2><ul><li><p>Bachelor of Technology (<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://B.Tech\">B.Tech</a>)</p></li><li><p>Bachelor of Architecture (B.Arch)</p></li><li><p>Master of Technology(<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://M.Tech\">M.Tech</a>)</p></li><li><p>Master of Science(<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://M.Sc\">M.Sc</a>.)</p></li><li><p>Master of Philosophy (M.Phil)</p></li><li><p>Master in Computer Application(MCA)</p></li><li><p>Doctor of Philosophy(Ph.D.)</p></li></ul>",
+      "img": "https://firebasestorage.googleapis.com/v0/b/exploreodisha-86ded.appspot.com/o/1712558527515vssut.jpeg?alt=media&token=804cce86-8d82-44a2-924a-6abb07d4184a",
+      "cat": "EDUCATION",
+      "views": [],
+      "user": {
+        "_id": "66113bfd46613d5028006560",
+        "name": "Debasis  Deba",
+        "image": "https://firebasestorage.googleapis.com/v0/b/exploreodisha-86ded.appspot.com/o/1712405486286Screenshot%202024-02-28%20080248.png?alt=media&token=b78cfe85-1aa1-42b4-bbe5-d0338a680557"
+      },
+      "comments": [],
+      "status": true,
+      "createdAt": "2024-04-08T06:44:03.391Z",
+      "updatedAt": "2024-04-08T06:44:03.391Z",
+      "__v": 0
+    },
+    {
+      "_id": "661151da46613d50280065c6",
+      "title": "Jay Jaganath",
+      "slug": "jay-jaganath",
+      "desc": "<p>Jay Jaganath prabhu</p>",
+      "img": "https://firebasestorage.googleapis.com/v0/b/exploreodisha-86ded.appspot.com/o/171241107400271aa15070e2d698ef37517aeb30eb9b5.jpg?alt=media&token=d67bbcef-e9bc-4c51-bb96-ee7602f42151",
+      "cat": "EDUCATION",
+      "views": [],
+      "user": {
+        "_id": "66113bfd46613d5028006560",
+        "name": "Debasis  Deba",
+        "image": "https://firebasestorage.googleapis.com/v0/b/exploreodisha-86ded.appspot.com/o/1712405486286Screenshot%202024-02-28%20080248.png?alt=media&token=b78cfe85-1aa1-42b4-bbe5-d0338a680557"
+      },
+      "comments": [],
+      "status": true,
+      "createdAt": "2024-04-06T13:44:58.184Z",
+      "updatedAt": "2024-04-06T14:48:26.799Z",
+      "__v": 0
+    }
+  ],
+  "page": 1,
+  "numOfPage": 1
+}
