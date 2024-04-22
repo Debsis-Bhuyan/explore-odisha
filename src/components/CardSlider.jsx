@@ -1,6 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from "react-router-dom";
 
 function Carosal({ posts }) {
   var settings = {
@@ -45,6 +46,10 @@ function Carosal({ posts }) {
           key={post._id}
           className="bg-white h-[450px] text-black rounded-xl"
         >
+           <Link
+          to={`/${post?.slug}/${post._id}`}
+          className="w-full h-auto md:h-64 md:w-2/4 "
+        >
           <div className="h-26 bg-indigo-500 flex justify-center items-center rounded-t-xl">
             <img
               src={post.img}
@@ -60,6 +65,7 @@ function Carosal({ posts }) {
               Read More
             </button>
           </div>
+          </Link>
         </div>
       ))}
     </Slider>
