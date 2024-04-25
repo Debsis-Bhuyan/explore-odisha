@@ -77,7 +77,7 @@ const MobileMenu = ({ user, signOut }) => {
                 Contact
               </NavLink>
             </li>
-            <li onClick={toggleMenu}>
+            {/* <li onClick={toggleMenu}>
               <NavLink
                 to="/about-us"
                 className={({ isActive, isPending }) =>
@@ -86,7 +86,7 @@ const MobileMenu = ({ user, signOut }) => {
               >
                 About
               </NavLink>
-            </li>
+            </li> */}
           </ul>
           <div className="flex gap-2 items-center">
             {user?.token ? (
@@ -153,7 +153,6 @@ const Navbar = () => {
     signOut();
   };
 
-
   return (
     <div>
       <nav className="flex  md:flex-row w-full py-5 lg:pl-8 2xl:px-14   items-center justify-between gap-4 md:gap-0">
@@ -184,14 +183,14 @@ const Navbar = () => {
             >
               Contact
             </NavLink>
-            <NavLink
+            {/* <NavLink
               to="/about-us"
               className={({ isActive, isPending }) =>
                 isActive ? "active px-3 rounded" : isPending ? "pending" : ""
               }
             >
               About
-            </NavLink>
+            </NavLink> */}
           </ul>
 
           {/* theme switch */}

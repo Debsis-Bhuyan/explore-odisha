@@ -57,7 +57,7 @@ export const usePosts = ({ writerId }) => {
 
 export const usePopularPosts = () => {
   const [popular, setPopular] = useState([]);
-
+// 
   useEffect(() => {
     const fetchPosts = async () => {
       try {
