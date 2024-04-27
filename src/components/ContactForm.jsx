@@ -5,7 +5,6 @@ import useStore from "../store";
 import { API_URL } from "../utils/apiCall";
 
 const ContactForm = () => {
-
   const { setIsLoading } = useStore();
 
   const [data, setData] = useState({
@@ -28,19 +27,21 @@ const ContactForm = () => {
     console.log(data);
     try {
       setIsLoading(true);
-      const response = await fetch(
-        API_URL,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
+      const response = await fetch(API_URL + "/contacts/create-contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
 
-          body: JSON.stringify(data),
-        }
-      )
+        body: JSON.stringify(data),
+      });
+      setData( {
+        fullname: "",
+        email: "",
+        message: "",
+      })
       const res = await response.json();
-      toast.success(res?.message)
+      toast.success(res?.message);
       setIsLoading(false);
     } catch (error) {
       console.log(error);
@@ -61,7 +62,6 @@ const ContactForm = () => {
             value={data?.fullname}
             onChange={handleChange}
           />
-          
         </div>
 
         <div className="mb-4">
@@ -74,7 +74,6 @@ const ContactForm = () => {
             value={data?.email}
             onChange={handleChange}
           />
-          
         </div>
 
         <div className="">
