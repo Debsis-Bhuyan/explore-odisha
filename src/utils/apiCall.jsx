@@ -1,6 +1,7 @@
 import axios from "axios";
 
-export const API_URL = "https://explore-odisha-backend.onrender.com";
+// export const API_URL = "https://explore-odisha-backend.onrender.com";
+export const API_URL = "http://localhost:5001";
 
 export const getGoogleSignUp = async (accessToken) => {
   try {
@@ -102,10 +103,11 @@ export const getPostComments = async (id) => {
 
 export const postComments = async (id, token, data) => {
   try {
-    const result = await axios.post(`${API_URL}/posts/comment/${id}`, data, {
+    const result = await axios.post(`${API_URL}/posts/comment/${id}`,{desc:data}, {
       headers: {
         Authorization: `Bearer ${token}`,
       },
+      
     });
 
     return result?.data;

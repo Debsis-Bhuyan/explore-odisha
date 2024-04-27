@@ -44,7 +44,7 @@ function Carosal({ posts }) {
       {posts.map((post) => (
         <div
           key={post._id}
-          className="bg-white h-[450px] text-black rounded-xl"
+          className=" bg-orange-400 h-[400px] text-black rounded-xl"
         >
            <Link
           to={`/${post?.slug}/${post._id}`}

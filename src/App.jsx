@@ -16,7 +16,7 @@ import useStore from "./store";
 
 function Layout() {
   return (
-    <div className="w-full flex flex-col min-h-screen px-4 md:px-10 2xl:px-28">
+    <div className="w-full flex flex-col min-h-screen px-2 md:px-6 2xl:px-14">
       <Navbar />
       <div className="flex-1">
         <Outlet />
@@ -31,13 +31,15 @@ function App() {
 
   return (
     <main className={theme}>
-      <div className={`w-full min-h-sreen  relative dark:bg-[#020b19] bg-white`}>
+      <div
+        className={`w-full min-h-sreen  relative dark:bg-[#020b19] bg-white`}
+      >
         <BrowserRouter>
           <Routes>
             <Route element={<Layout />}>
               <Route path="/" element={<Home />} />
               <Route path="/explore/category" element={<CategoriesPage />} />
-              <Route path="/:slug/:id?" element={<PageDetails />} />
+              <Route path="/:slug/:id" element={<PageDetails />} />
               <Route path="/writer/:id" element={<WriterPage />} />
               <Route path="/about-us" element={<About />} />
               <Route path="/contact-us" element={<ContactPage />} />

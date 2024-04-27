@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import useStore from "../store";
-import { COMMENTS } from "../utils/dummyData";
 import Button from "./Button";
 import { Link } from "react-router-dom";
 import Profile from "../assets/profile.png";
@@ -44,7 +43,6 @@ const PostComments = ({ postId }) => {
     e.preventDefault();
 
     const res = await postComments(postId, user?.token, desc);
-    console.log(res);
     if (res?.success === true) {
       setDesc("");
       fetchComments();
@@ -59,6 +57,7 @@ const PostComments = ({ postId }) => {
       <p className="text-lg text-slate-700 dark:text-slate-500 mb-3">
         Post Comments
       </p>
+      
 
       {user?.token ? (
         <form className="flex flex-col mb-6" onSubmit={handlePostComment}>
