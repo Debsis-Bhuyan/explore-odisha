@@ -5,7 +5,7 @@ import useStore from "../store";
 import { API_URL } from "../utils/apiCall";
 
 const ContactForm = () => {
-  // http://localhost:5001/contacts/create-contact
+
   const { setIsLoading } = useStore();
 
   const [data, setData] = useState({
@@ -61,11 +61,7 @@ const ContactForm = () => {
             value={data?.fullname}
             onChange={handleChange}
           />
-          {/* <input
-            type="text"
-            placeholder="Your name"
-            className="w-full p-2 border rounded-md"
-          /> */}
+          
         </div>
 
         <div className="mb-4">
@@ -78,11 +74,7 @@ const ContactForm = () => {
             value={data?.email}
             onChange={handleChange}
           />
-          {/* <input
-            type="email"
-            placeholder="Your email"
-            className="w-full p-2 border rounded-md"
-          /> */}
+          
         </div>
 
         <div className="">

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Card, Pagination, PopularPosts } from "../components";
 
-import { CATEGORIES, popular, posts } from "../utils/dummyData";
+import { CATEGORIES} from "../utils/dummyData";
 import { usePopularPosts, usePosts } from "../hooks/post-hook";
 
 function ExploreOdisha() {

@@ -1,4 +1,4 @@
-import { Routes, Route, Outlet } from "react-router-dom";
+import { Routes, Route, Outlet, BrowserRouter } from "react-router-dom";
 import {
   PageDetails,
   CategoriesPage,
@@ -31,21 +31,23 @@ function App() {
 
   return (
     <main className={theme}>
-      <div className={`w-full min-h-sreen relative dark:bg-[#020b19] bg-white`}>
-        <Routes>
-          <Route element={<Layout />}>
-            <Route path="/" element={<Home />} />
-            <Route path="/explore/category" element={<CategoriesPage />} />
-            <Route path="/:slug/:id?" element={<PageDetails />} />
-            <Route path="/writer/:id" element={<WriterPage />} />
-            <Route path="/about-us" element={<About />} />
-            <Route path="/contact-us" element={<ContactPage />} />
-            <Route path="/explore-odisha" element={<ExploreOdisha />} />
-          </Route>
+      <div className={`w-full min-h-sreen  relative dark:bg-[#020b19] bg-white`}>
+        <BrowserRouter>
+          <Routes>
+            <Route element={<Layout />}>
+              <Route path="/" element={<Home />} />
+              <Route path="/explore/category" element={<CategoriesPage />} />
+              <Route path="/:slug/:id?" element={<PageDetails />} />
+              <Route path="/writer/:id" element={<WriterPage />} />
+              <Route path="/about-us" element={<About />} />
+              <Route path="/contact-us" element={<ContactPage />} />
+              <Route path="/explore-odisha" element={<ExploreOdisha />} />
+            </Route>
 
-          <Route path="/sign-up" element={<SignupPage />} />
-          <Route path="/sign-in" element={<LoginPage />} />
-        </Routes>
+            <Route path="/sign-up" element={<SignupPage />} />
+            <Route path="/sign-in" element={<LoginPage />} />
+          </Routes>
+        </BrowserRouter>
 
         {isLoading && <Loading />}
       </div>
